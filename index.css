@@ -5,9 +5,8 @@
 }
 
 body {
-    background: #666666;
+    background: #efefef;
     margin: 0;
-    
 }
 
 a {
@@ -84,6 +83,6 @@ a {
 .useCard{
     border: red 1px solid;
     max-width: 940px;
-    
+    margin: 0 auto;
     
 }
