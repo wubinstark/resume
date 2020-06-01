@@ -86,3 +86,16 @@ a {
     margin: 0 auto;
     
 }
+
+main img{
+    height: 300px;
+}
+
+main .picture{
+    float: left;
+}
+
+main .text{
+    float: left;
+
+}
