@@ -93,9 +93,20 @@ main img{
 
 main .picture{
     float: left;
+    padding-top: 40px;
+    padding-left: 40px;
+
 }
 
 main .text{
     float: left;
+
+}
+
+.useCard .text .welcome{
+    background-color: #e6686a;
+    color: #ffffff;
+    padding: 5px 10px;
+    
 
 }
