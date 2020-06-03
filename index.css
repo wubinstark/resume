@@ -84,6 +84,7 @@ a {
     border: red 1px solid;
     max-width: 940px;
     margin: 0 auto;
+    background-color: #fff;
     
 }
 
@@ -91,16 +92,19 @@ main img{
     height: 300px;
 }
 
+.profile{
+    padding: 40px;
+}
+
 main .picture{
     float: left;
-    padding-top: 40px;
-    padding-left: 40px;
+
 
 }
 
 main .text{
     float: left;
-    padding-left: 40px;
+    
 
 }
 
@@ -111,7 +115,6 @@ main .text{
     position: relative;
     border-radius: 2px;
     display: inline-block;
-    margin-top: 100px;
 }
 
 .useCard .text .welcome .trangle{
