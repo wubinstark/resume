@@ -182,5 +182,5 @@ main h2{
 }
 
 .useCard .icon:hover{
-    background-color:#9a9a9a;
+    background-color:rgba(0, 0, 0, 0.2);
 }
