@@ -92,8 +92,8 @@ a {
 }
 
 .useCard{
-    border: red 1px solid;
     max-width: 940px;
+    box-shadow: rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     background-color: #fff;
     
