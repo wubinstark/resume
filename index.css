@@ -30,6 +30,14 @@ a {
     color: #ffffff;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+ol,ul{
+    list-style: none;
+}
+
 .navigationbar {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -246,4 +254,31 @@ main h2{
     font-family: STKaitiSC-Regular;
     font-size: 20px;
 
+}
+
+.skills{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.skills h2{
+    font-size: 40px;
+    text-align: center;    
+}
+
+.skills ol{
+    background-color: #fff;
+}
+
+.skills ol li {
+
+}
+
+.skills ol li div .skillItem{
+
+}
+
+.skills ol li div .progressBar{
+    height: 5px;
+    border: 1px solid red;
 }
