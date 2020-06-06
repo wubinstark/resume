@@ -185,16 +185,53 @@ main h2{
     background-color:rgba(0, 0, 0, 0.2);
 }
 
-  .downloadResume {
-    display: inline-block;  
-    color: black;
-    border: solid 1px red;
-    padding: 20px 40px;
-    margin-top: 30px;
+.downloadResume-button{
+    text-align: center;
+    margin: 60px 0px;
+}
 
-  }
+.downloadResume {
+    box-shadow: 0px 10px 14px -7px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+    
+}
 
 .downloadResume:hover{
-    box-shadow: 0px 11px 24px -4px rgba(36,36,36,0.5);
-    transition: linear 0.2s;
+    background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color:#6c7c7c;
+}
+
+.downloadResume:active{
+	box-shadow: 0px 10px 14px -7px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
