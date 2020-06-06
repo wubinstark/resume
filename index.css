@@ -253,6 +253,8 @@ main h2{
     text-align: center;
     font-family: STKaitiSC-Regular;
     font-size: 20px;
+    margin-bottom: 80px;
+    padding-top: 20px;
 
 }
 
@@ -263,22 +265,41 @@ main h2{
 
 .skills h2{
     font-size: 40px;
-    text-align: center;    
+    text-align: center; 
+    font-family: STKaitiSC-Regular;  
+    font-weight: bold; 
 }
 
 .skills ol{
     background-color: #fff;
+    padding: 42px 50px 20px;
+    margin-top: 40px;
 }
 
 .skills ol li {
+    margin-bottom: 30px;
+    float: left;
+    width: 46%;
+    box-sizing: border-box;
 
 }
 
-.skills ol li div .skillItem{
-
+.skills ol li:nth-child(even) {
+    float: right;
 }
 
 .skills ol li div .progressBar{
     height: 5px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.skills ol li div .progressBar .progress{
+    height: 100%;
+    width: 70%;
+    background-color: #e6686a;
+    border-radius: 2px;
+
 }
