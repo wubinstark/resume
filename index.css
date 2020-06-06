@@ -1,3 +1,8 @@
+@font-face{
+    font-family: KaiTi;
+    src: url();
+}
+
 .clearfix::after {
     content: '';
     display: block;
@@ -234,4 +239,9 @@ main h2{
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.introdution{
+    text-align: center;
+    font-family: KaiTi;
 }
