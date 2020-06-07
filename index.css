@@ -258,12 +258,14 @@ main h2{
 
 }
 
-.skills{
+.skills,
+.objects{
     width: 940px;
     margin: 0 auto;
 }
 
-.skills h2{
+.skills h2,
+.objects h2{
     font-size: 40px;
     text-align: center; 
     font-family: STKaitiSC-Regular;  
@@ -303,3 +305,40 @@ main h2{
     border-radius: 2px;
 
 }
+
+.objects{
+    text-align: center;
+}
+.objects nav{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.objects ol{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.objects ol li{
+    float: left;
+    padding-left: 40px;
+    vertical-align: top;
+    /* border: 1px solid red; */
+}
+
+.objects ol li:first-child{
+    padding-left: 0px;
+}
+
+.bar{
+    border: 1px solid red;
+    height: 5px;
+    border-radius: 2px;
+}
+
+.bar .barItem{
+    
+}
+
