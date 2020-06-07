@@ -276,6 +276,7 @@ main h2{
     background-color: #fff;
     padding: 42px 50px 20px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .skills ol li {
@@ -319,12 +320,15 @@ main h2{
     background-color: transparent;
     display: inline-block;
     vertical-align: top;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .objects ol li{
     float: left;
     padding-left: 40px;
     vertical-align: top;
+    cursor: pointer;
     /* border: 1px solid red; */
 }
 
@@ -333,12 +337,73 @@ main h2{
 }
 
 .bar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 5px;
     border-radius: 2px;
+    background-color: white;
+    margin-bottom: 40px;
 }
 
-.bar .barItem{
+.bar .barItem-1{
+    width: 40px;
+    height: 100%;
+    background-color: #e6686a;
+    border-radius: 2px;
+    transition: all 0.2s;
+
+}
+
+.bar .barItem-2{
+    width: 40px;
+    height: 100%;
+    background-color: #e6686a;
+    border-radius: 2px;
+    margin-left: 80px;
+    transition: all 0.2s;
+
+}
+.bar .barItem-3{
+    width: 100px;
+    height: 100%;
+    background-color: #e6686a;
+    border-radius: 2px;
+    margin-left: 140px;
+    transition: all 0.2s;
+
+}
+
+.works{
+    width: 940px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.works .big{
+    height: 600px;
+    width: 600px;
+    border: royalblue 1px solid;
+    position: absolute;
     
 }
 
+.works .small-1{
+    height: 280px;
+    width: 300px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 640px;
+
+}
+
+.works .small-2{
+    height: 280px;
+    width: 300px;
+    border: blue solid 1px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 640px;
+
+}
